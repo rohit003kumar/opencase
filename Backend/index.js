@@ -149,7 +149,7 @@ app.use(compression());
 
 const allowedOrigins = [
   "http://localhost:5173", // dev
-  "https://opencase-ksdx.onrender.com", // deployed frontend
+  "https://opencase-1.onrender.com", // deployed frontend
   process.env.FRONTEND_URL // from environment variable
 ].filter(Boolean); // remove undefined values
 
