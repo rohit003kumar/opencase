@@ -272,7 +272,7 @@ app.use(compression());
 // Allowed origins (dev + prod)
 const allowedOrigins = [
   "http://localhost:5173", // dev frontend
-  "https://your-frontend-name.onrender.com", // prod frontend
+  "https://opencase-1.onrender.com", // prod frontend
   process.env.FRONTEND_URL // custom env URL
 ].filter(Boolean);
 
